@@ -8,6 +8,4 @@
 .DS_Store
 Thumbs.db
 
-# Large data files (optional - if you have raw CSVs that are too big)
-# *.csv
-# *.xlsx
+
