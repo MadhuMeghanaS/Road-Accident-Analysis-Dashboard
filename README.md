@@ -41,8 +41,8 @@ Provides insights into the types of vehicles most frequently involved in inciden
 ## Project Structure
 
 - `ROAD_ACCIDENTS_ANALYSIS_DASHBOARD.pbix`: Main Power BI report file.
-- `assets/`: Contains all visual assets, including the dashboard screenshot and background images.
-- `assets/Vehicel Images/`: Images used for vehicle categories within the dashboard.
+- `Road Accident Data.xlsx`: The dataset used for analysis.
+- `assets/Dashboard.png`: Preview image for the GitHub README.
 
 ## Installation and View
 
