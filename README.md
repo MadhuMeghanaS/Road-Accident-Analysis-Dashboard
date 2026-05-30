@@ -4,33 +4,52 @@ An interactive Power BI dashboard designed to analyze and visualize road acciden
 
 ---
 
-## Dashboard Preview
+## Dashboard Previews
 
-![Dashboard Screenshot](./assets/Dashboard.png)
+<details>
+  <summary><b>🚀 Overview</b></summary>
+  <br>
+  <img src="./assets/Page1.png" alt="Overview Dashboard" width="100%">
+</details>
+
+<details>
+  <summary><b>📊 Trends & Patterns Overview</b></summary>
+  <br>
+  <img src="./assets/Page2.png" alt="Trends & Patterns" width="100%">
+</details>
+
+<details>
+  <summary><b>🔍 Severity & Root Cause Analysis</b></summary>
+  <br>
+  <img src="./assets/Page3.png" alt="Severity & Root Cause Analysis" width="100%">
+</details> 
 
 ---
 
 ## Project Objectives
 
 Identifying road accident trends and patterns is crucial for safety improvements. This dashboard aims to:
-- Track KPIs like Total Accidents, Fatalities, and Casualties.
-- Analyze seasonal and yearly trends in accidents.
-- Breakdown accidents by vehicle types and severity levels.
-- Understand the impact of weather and road conditions.
+- **Track KPIs**: Analyze Total Accidents, Fatalities, and Casualties.
+- **Accident Trends**: Identify seasonal and yearly trends.
+- **Severity Breakdown**: Categorize accidents by severity levels and vehicle types.
+- **Root Cause Analysis**: Understand the impact of weather, road conditions, and lighting.
 
-## Key Features
+## Dashboard Breakdown
 
-### Accident Trends
-Visualizes the frequency of accidents over different time periods to identify peaks and patterns.
+### **1. Overview**
+- High-level KPI tracking (Total Accidents, Casualties).
+- Geographic distribution of accidents.
+- Primary metrics at a glance.
 
-### Severity Analysis
-Categorizes accidents into Fatal, Serious, and Slight to prioritize safety interventions.
+### **2. Trends & Patterns Overview**
+- Time-series analysis (Monthly/Yearly trends).
+- Identifying peak accident periods.
+- Correlation between environmental factors and accident frequency.
 
-### Environmental Factors
-Explores how light conditions, weather, and road surfaces contribute to accident rates.
-
-### Vehicle Demographics
-Provides insights into the types of vehicles most frequently involved in incidents.
+### **3. Severity & Root Cause Analysis**
+- Deep dive into accident severity (Fatal, Serious, Slight).
+- Vehicle type analysis.
+- Identifying root causes such as road surface and lighting conditions.
 
 ## Tools and Technologies
 
@@ -42,8 +61,8 @@ Provides insights into the types of vehicles most frequently involved in inciden
 
 - `ROAD_ACCIDENTS_ANALYSIS_DASHBOARD.pbix`: Main Power BI report file.
 - `Road Accident Data.xlsx`: The dataset used for analysis.
-- `assets/Dashboard.png`: Preview image for the GitHub README.
-
+- `assets/`: Contains dashboard preview images and UI elements.
+  
 ## Installation and View
 
 1. Clone or download this repository.
@@ -51,4 +70,3 @@ Provides insights into the types of vehicles most frequently involved in inciden
 3. Open `ROAD_ACCIDENTS_ANALYSIS_DASHBOARD.pbix`.
 
 ---
-
